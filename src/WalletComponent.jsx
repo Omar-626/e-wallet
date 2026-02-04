@@ -197,7 +197,7 @@ function WalletComponent() {
 
             <dialog ref={expenssesDialogRef} className="expensses-dialog dialog">
                 <input onChange={(e) => handleTempExpensses(e)} value={tempExpensses} className="dialog-input" inputMode="numeric" type="text" placeholder="أدخل قيمة المصروفات" />
-                <input onChange={(e) => setTempExpenssesDetails(e.target.value)} value={tempExpenssesDetails} className="dialog-input" inputMode="numeric" type="text" placeholder="أدخل التفاصيل (اختياري)" />
+                <input onChange={(e) => setTempExpenssesDetails(e.target.value)} value={tempExpenssesDetails} className="dialog-input" type="text" placeholder="أدخل التفاصيل (اختياري)" />
                 <select onChange={(e) => setTempType(e.target.value)}
                     value={tempType} name="" id="" style={{ width: "100%", fontSize: "20px", margin: "10px auto" }}>
                     <option value="cash">نقدي</option>
@@ -210,7 +210,7 @@ function WalletComponent() {
 
             <dialog ref={earningsDialogRef} className="earnings-dialog dialog">
                 <input onChange={(e) => handleTempEarnings(e)} value={tempEarnings} className="dialog-input" inputMode="numeric" type="text" placeholder="أدخل قيمة الواردات" />
-                <input onChange={(e) => setTempEarningsDetails(e.target.value)} value={tempEarningsDetails} className="dialog-input" inputMode="numeric" type="text" placeholder="أدخل التفاصيل (اختياري)" />
+                <input onChange={(e) => setTempEarningsDetails(e.target.value)} value={tempEarningsDetails} className="dialog-input" type="text" placeholder="أدخل التفاصيل (اختياري)" />
                 <select onChange={(e) => setTempType(e.target.value)}
                     value={tempType} name="" id="" style={{ width: "100%", fontSize: "20px", margin: "10px auto" }}>
                     <option value="cash">نقدي</option>
