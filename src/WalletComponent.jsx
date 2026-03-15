@@ -187,10 +187,10 @@ function WalletComponent() {
                 </div>
             </div>
             <div className="add-expensses">
-                <button onClick={() => expenssesDialogRef.current.show()} className=" btns-container">اضغط هنا لاضافة مصروفات</button>
+                <button onClick={() => expenssesDialogRef.current.show()} style={{ color: "white" }} className=" btns-container">اضغط هنا لاضافة مصروفات</button>
             </div>
             <div className="add-earnings">
-                <button onClick={() => earningsDialogRef.current.show()} className=" btns-container">اضغط هنا لاضافة واردات</button>
+                <button onClick={() => earningsDialogRef.current.show()} style={{ color: "white" }} className=" btns-container">اضغط هنا لاضافة واردات</button>
             </div>
 
 
